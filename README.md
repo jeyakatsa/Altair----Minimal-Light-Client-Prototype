@@ -1,3 +1,3 @@
-# Altair----Minimal-Light-Client-Prototype
+#### Altair----Minimal-Light-Client-Prototype Specs
 
-Specs to refer back to: https://github.com/ethereum/consensus-specs/blob/dev/specs/altair/sync-protocol.md
+https://github.com/ethereum/consensus-specs/blob/dev/specs/altair/sync-protocol.md
