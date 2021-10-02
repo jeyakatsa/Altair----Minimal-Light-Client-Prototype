@@ -1,4 +1,4 @@
-package prototype;
+package prototype.service;
 
 public class LightClientUpdate {
 	
