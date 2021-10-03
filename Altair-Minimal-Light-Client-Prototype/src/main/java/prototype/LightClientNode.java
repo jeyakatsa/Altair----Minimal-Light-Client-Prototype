@@ -15,6 +15,5 @@ public class LightClientNode {
 	//- SyncComiteeBits (possibly integer, double or long)
 	
 	//Refer to Light Client Update for variables
-	
 
 }
