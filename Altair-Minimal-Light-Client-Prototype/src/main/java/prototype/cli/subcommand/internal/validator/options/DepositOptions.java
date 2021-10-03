@@ -1,5 +1,5 @@
 package prototype.cli.subcommand.internal.validator.options;
 
-public class DepositOptionsTest {
+public class DepositOptions {
 
 }

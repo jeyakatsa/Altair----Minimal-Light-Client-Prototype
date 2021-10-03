@@ -1,5 +1,5 @@
 package prototype.cli.subcommand.internal;
 
-public class InternalToolsCommandTest {
+public class InternalToolsCommand {
 
 }

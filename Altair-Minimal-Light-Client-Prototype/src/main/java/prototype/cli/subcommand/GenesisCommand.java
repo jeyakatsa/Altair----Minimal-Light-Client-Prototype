@@ -1,5 +1,5 @@
 package prototype.cli.subcommand;
 
-public class GenesisCommandTest {
+public class GenesisCommand {
 
 }
