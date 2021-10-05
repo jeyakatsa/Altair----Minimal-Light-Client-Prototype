@@ -1,9 +1,11 @@
-#### Altair----Minimal-Light-Client-Prototype Specs
+### Tools Needed:
+- Eclipse: https://www.eclipse.org/downloads/
+- Gradle: https://gradle.org/install/
 
+#### Altair----Minimal-Light-Client-Prototype Specs:
 https://github.com/ethereum/consensus-specs/blob/dev/specs/altair/sync-protocol.md//
 
-#### Beacon Chain----Full Specs
-
+#### Beacon Chain----Full Specs:
 https://github.com/ethereum/consensus-specs/blob/dev/specs/altair/beacon-chain.md
 
 
