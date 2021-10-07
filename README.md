@@ -2,12 +2,14 @@
 - Eclipse: https://www.eclipse.org/downloads/
 - Gradle: https://gradle.org/install/
 
+#### Build Reference:
+https://github.com/ConsenSys/teku
+
 #### Altair----Minimal-Light-Client-Prototype Specs:
 https://github.com/ethereum/consensus-specs/blob/dev/specs/altair/sync-protocol.md//
 
 #### Beacon Chain----Full Specs:
 https://github.com/ethereum/consensus-specs/blob/dev/specs/altair/beacon-chain.md
-
 
 ###### Full Nodes vs Light Nodes:
 https://ethereum.org/en/developers/docs/nodes-and-clients/nodes-as-a-service/
