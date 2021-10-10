@@ -1,10 +1,12 @@
-*Prototype deconstructed from [Teku Build Reference](#build-reference:) in order to maintain consistency.*
+#### Important:
+*Do Not Use* Teku Build Reference *verbatim* as its dependencies are consistently being refactored/reorganized thus will create an infinite loop of issues for your build.
+Being creative (i.e adding your own flavor to the ingredients of this prototype) is extremely important. 
 
 ### Tools Needed:
 - Eclipse: https://www.eclipse.org/downloads/
 - Gradle: https://gradle.org/install/
 
-#### Build Reference:
+#### Teku Build Reference:
 https://github.com/ConsenSys/teku
 
 #### Altair----Minimal-Light-Client-Prototype Specs:
