@@ -1,5 +1,8 @@
 #### Important:
-*Do Not Use* Teku Build Reference *verbatim* as its dependencies are consistently being refactored/reorganized thus will create an infinite loop of issues for your build.
+`git pull` Teku Build Reference repo consistently to stay up-to-date.
+
+*Do Not Use* reference *verbatim* as its dependencies are consistently being refactored/reorganized thus will create an infinite loop of issues for your build.
+
 Being creative (adding your own ingredients to the recipe of this prototype) is extremely important. 
 
 ### Tools Needed:
