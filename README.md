@@ -1,6 +1,6 @@
 #### Important:
 *Do Not Use* Teku Build Reference *verbatim* as its dependencies are consistently being refactored/reorganized thus will create an infinite loop of issues for your build.
-Being creative (i.e adding your own flavor to the ingredients of this prototype) is extremely important. 
+Being creative (adding your own ingredients to the recipe of this prototype) is extremely important. 
 
 ### Tools Needed:
 - Eclipse: https://www.eclipse.org/downloads/
