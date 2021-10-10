@@ -1,3 +1,5 @@
+*Prototype deconstructed from [Teku Build Reference](#build-reference:) in order to maintain consistency.*
+
 ### Tools Needed:
 - Eclipse: https://www.eclipse.org/downloads/
 - Gradle: https://gradle.org/install/
