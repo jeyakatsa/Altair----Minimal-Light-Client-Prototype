@@ -1,12 +1,18 @@
 Basic Building Blocks
 
-Services
-- BeaconChain
+Requests [Source-Folder]
+[Packages]
+- (TBD [To-Be-Determined])
 
+Services [Source-Folder]
+[Packages]
+- (TBD [To-Be-Determined])
 
-Validator
+Validator [Source-Folder]
+[Packages]
+- API
 - BeaconNode
-- Client
+- Client 
 - Coordinator
 - EventAdapter
 - RelayPublisher
