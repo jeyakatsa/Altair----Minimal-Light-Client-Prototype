@@ -1,4 +1,8 @@
-Building Block Packages
+Basic Building Blocks
+
+Services
+- BeaconChain
+
 
 Validator
 - BeaconNode
