@@ -1,18 +1,51 @@
 Basic Building Blocks
 
+Header [Source-Folder]
+[Packages]
+  HeaderChain
+
 Requests [Source-Folder]
 [Packages]
-- (TBD [To-Be-Determined])
+  (TBD [To-Be-Determined])
 
 Services [Source-Folder]
 [Packages]
-- (TBD [To-Be-Determined])
+  (TBD [To-Be-Determined])
 
 Validator [Source-Folder]
 [Packages]
-- API
-- BeaconNode
-- Client 
+  API
+--- AttesterDuties(class)
+--- AttesterDuty(class)
+--- Bytes32Parser(class)
+--- CommitteeSubscriptionRequest(class)
+--- FileBackedGraffitiProvider(class)
+--- GraffitiParser(class)
+--- GraffitiProvider(interface)
+--- InteropConfig(class)
+--- KeyStoreFilesLocator(class)
+--- NodeSyncingException(class)
+--- ProposerDuties(class)
+--- SendSignedBlockResult(class)
+--- SubmitDataError(class)
+--- SubmitDataResult(class)
+--- SyncCommitteeDuties(class)
+--- SyncCommitteeDuty(class)
+--- SyncCommitteeSubnetSubscription(class)
+--- ValidatorApiChannel(interface)
+--- ValidatorConfig(class)
+--- ValidatorPerformanceTrackingMode(class)
+--- ValidatorTimingChannel(interface)
+  BeaconNode
+--- BeaconChainEventAdapter(interface)
+--- BeaconNodeApi(interface)
+--- GenesisDataProvider(class)
+--- TimeBasedEventAdapter(class)
+  BeaconNode.Metrics
+--- BeaconChainRequestCounter(class)
+--- MetricRecordingValidatorApiChannel(class)
+  Client 
+--- 
 - Coordinator
 - EventAdapter
 - RelayPublisher
