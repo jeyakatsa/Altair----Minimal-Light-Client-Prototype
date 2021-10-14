@@ -1,4 +1,8 @@
 Basic Building Blocks
+___________________________________________________________________________________________________
+
+Note: Most/some packages/classes might need to be refactored/deleted based off light node specifics.
+___________________________________________________________________________________________________
 
 Header [Source-Folder]
 [Packages]
@@ -45,8 +49,57 @@ Validator [Source-Folder]
 --- BeaconChainRequestCounter(class)
 --- MetricRecordingValidatorApiChannel(class)
   Client 
---- 
-- Coordinator
+--- AbstractDutyLoader(abstract-class)
+--- AbstractDutyScheduler(abstract-class)
+--- AttestationDutyLoader(class)
+--- AttestationDutyScheduler(class)
+--- BlockDutyScheduler(class)
+--- BlockProductionDutyLoader(class)
+--- DefaultValidatorStatusLogger(class)
+--- DutyLoader(interface)
+--- ForkProvider(class)
+--- NodeDataUnavailableException(class)
+--- PendingDuties(class)
+--- RetryingDutyLoader(class)
+--- SyncCommitteeDutyLoader(class)
+--- SyncCommitteeScheduler(class)
+--- Validator(class)
+--- ValidatorClientConfiguration(class)
+--- ValidatorClientService(class)
+--- ValidatorIndexProvider(class)
+--- ValidatorStatusLogger(interface)
+--- ValidatorTimingActions(class)
+  Client.Duties
+--- BeaconCommitteeSubscriptions(class)
+--- BlockDutyFactory(class)
+--- BlockProductionDuty(class)
+--- Duty(interface)
+--- DutyFactory(interface)
+--- DutyResult(class)
+--- ProductionResult(class)
+--- RestApiReportedException(class)
+--- ScheduledDuties(interface)
+--- SlotBasedScheduledDuties
+  Client.Duties.Attestations
+--- AggregationDuty(class)
+--- AttestationDutyFactory(class)
+--- AttestationProductionDuty(class)
+--- BatchAttestationSendingStrategy(class)
+--- IndividualSendingStrategy(class)
+--- ScheduledCommittee(class)
+--- SendingStrategy(interface)
+--- ValidatorWithCommitteePositionAndIndex(class)
+  Client.Duties.SyncCommittee
+--- ChainHeadTracker(class)**IMPORTANT**
+--- SyncCommitteeAggregationDuty(class)
+--- SyncCommitteeProductionDuty(class)
+--- SyncCommitteeScheduledDuties(class)
+--- ValidatorAndCommitteeIndices(class)
+  Client.Loader
+--- ExternalValidatorSource(class)
+
+  Client.Signer
+  Coordinator
 - EventAdapter
 - RelayPublisher
 - Remote
