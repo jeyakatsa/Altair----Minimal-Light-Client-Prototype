@@ -7,6 +7,7 @@ ________________________________________________________________________________
 Header [Source-Folder]
 [Packages]
   HeaderChain
+--- Header(class)
 
 Requests [Source-Folder]
 [Packages]
@@ -157,3 +158,5 @@ Validator [Source-Folder]
 --- ResponseHandler(class)
 --- ValidatorApiMethod(enum-class)
 --- ValidatorRestApiClient(interface)
+
+Double Check Based Off Teku (after blocks built)
