@@ -9,6 +9,10 @@ Being creative (adding your own ingredients to the recipe of this prototype) is 
 - Eclipse: https://www.eclipse.org/downloads/
 - Gradle: https://gradle.org/install/
 
+#### Ethereum 2 Light Client Reference:
+- Build (Lodestar[written in Typescript]): https://github.com/ChainSafe/eth2-light-client-demo
+- Test (Lodestar): https://light-client-demo.lodestar.casa/
+
 #### Teku Build Reference:
 https://github.com/ConsenSys/teku
 
