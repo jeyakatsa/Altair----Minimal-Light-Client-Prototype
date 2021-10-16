@@ -139,7 +139,7 @@ Validator [Source-Folder]
   EventAdapter
 --- IndependentTimerEventChannelEventAdapter(class)
 --- InProcessBeaconNodeApi(class)
---- package-info(class)
+--- package-info(**check**)
   RelayPublisher
 --- AdditionalPublisherApi(class)
 --- MultiPublishingBeaconNodeApi(class)
