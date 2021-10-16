@@ -5,17 +5,18 @@
 
 Being creative (adding your own ingredients to the recipe of this prototype) is extremely important. 
 
-### Tools Needed:
-- Eclipse: https://www.eclipse.org/downloads/
-- Gradle: https://gradle.org/install/
-
-#### Ethereum 2 Light Client Reference:
+### Ethereum 2 Light Client Demo Reference:
 - Build (Lodestar[written in Typescript]): https://github.com/ChainSafe/eth2-light-client-demo
 - Test (Lodestar): https://light-client-demo.lodestar.casa/
 
-### Light Client Server (to be built in parallel for Teku):
+### Light Client Server Reference:
 - Reference to inform/update: https://github.com/ConsenSys/teku/issues/4230
 - Reference to review: https://notes.ethereum.org/@ralexstokes/S1RSe1JlF
+
+### Tools Needed:
+- Spring Tool Suite 4 (for Demo): https://spring.io/tools
+- Eclipse (for Server): https://www.eclipse.org/downloads/
+- Gradle (for Server): https://gradle.org/install/
 
 #### Teku Build Reference:
 https://github.com/ConsenSys/teku
