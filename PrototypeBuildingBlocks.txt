@@ -80,7 +80,7 @@ Validator [Source-Folder]
 --- ProductionResult(class)
 --- RestApiReportedException(class)
 --- ScheduledDuties(interface)
---- SlotBasedScheduledDuties
+--- SlotBasedScheduledDuties(**check**)
   Client.Duties.Attestations
 --- AggregationDuty(class)
 --- AttestationDutyFactory(class)
