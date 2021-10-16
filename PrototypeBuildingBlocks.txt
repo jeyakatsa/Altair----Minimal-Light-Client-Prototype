@@ -92,7 +92,7 @@ Validator [Source-Folder]
 --- SendingStrategy(interface)
 --- ValidatorWithCommitteePositionAndIndex(class)
   Client.Duties.SyncCommittee
---- ChainHeadTracker(class)**IMPORTANT**
+--- ChainHeadTracker(class)***IMPORTANT***
 --- SyncCommitteeAggregationDuty(class)
 --- SyncCommitteeProductionDuty(class)
 --- SyncCommitteeScheduledDuties(class)
