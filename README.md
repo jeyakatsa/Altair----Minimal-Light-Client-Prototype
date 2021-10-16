@@ -13,6 +13,10 @@ Being creative (adding your own ingredients to the recipe of this prototype) is 
 - Build (Lodestar[written in Typescript]): https://github.com/ChainSafe/eth2-light-client-demo
 - Test (Lodestar): https://light-client-demo.lodestar.casa/
 
+### Light Client Server (to be built in parallel for Teku):
+- Reference to inform/update: https://github.com/ConsenSys/teku/issues/4230
+- Reference to review: https://notes.ethereum.org/@ralexstokes/S1RSe1JlF
+
 #### Teku Build Reference:
 https://github.com/ConsenSys/teku
 
