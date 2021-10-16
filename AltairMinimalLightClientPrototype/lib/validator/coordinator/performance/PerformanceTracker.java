@@ -1,5 +1,5 @@
 package coordinator.performance;
 
-public class PerformanceTracker {
+public interface PerformanceTracker {
 
 }
