@@ -5,13 +5,13 @@
 
 Being creative (adding your own ingredients to the recipe of this prototype) is extremely important. 
 
-### Ethereum 2 Light Client Demo Reference:
+### Demo Reference:
 - Build (Lodestar[written in Typescript]): https://github.com/ChainSafe/eth2-light-client-demo
 - Test (Lodestar): https://light-client-demo.lodestar.casa/
 
-### Light Client Server Reference:
-- Reference to inform/update: https://github.com/ConsenSys/teku/issues/4230
-- Reference to review: https://notes.ethereum.org/@ralexstokes/S1RSe1JlF
+### Server Reference:
+- To Inform/update: https://github.com/ConsenSys/teku/issues/4230
+- To Review: https://notes.ethereum.org/@ralexstokes/S1RSe1JlF
 
 ### Tools Needed:
 - Spring Tool Suite 4 (for Demo): https://spring.io/tools
