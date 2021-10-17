@@ -1,0 +1,30 @@
+-----------------HOME
+
+Icon & Title
+
+How To Use Link
+
+Beacon node API URL
+[    i-n-p-u-t    ]
+
+Trusted checkpoint
+[    i-n-p-u-t    ]
+
+Initialize from trusted checkpoint
+
+__________________________________________
+Response Block
+_________________________________________
+
+
+
+
+-----------------How To Use
+
+Description of Demo
+
+Step 1: Link to beaconcha.in
+Step 2: Choose an Epoc
+Step 3: Copy Block Root
+Step 4: Paste Block Root to Trusted checkpoint
+Step 5: 
