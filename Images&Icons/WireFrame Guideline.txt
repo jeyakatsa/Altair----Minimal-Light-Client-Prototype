@@ -1,25 +1,32 @@
 Icon & Title
 
-v---How To Use (Drop Down)---v
+v----How To Use (Drop Down)----v
 
-Description of Demo
+Description of Demo [with images]
 
-Step 1: Link to beaconcha.in
-Step 2: Choose an Epoc
-Step 3: Scroll down and Copy Root Hash from Slot
-Step 4: Paste Block Root to Trusted checkpoint
-Step 5: 
-------------------------------
+Step 1: Open https://beaconcha.in/
+Step 2: Click on Epoc
+Step 3: Click on Slot
+Step 4: Copy Block Root hash
+Step 5: Paste Block Root hash into Trusted Checkpoint [input]
+Step 6: Click Initialize From Trusted Checkpoint
+
+^------------------------------^
 
 Beacon node API URL
 [    i-n-p-u-t    ]
 
 Trusted checkpoint
-[    i-n-p-u-t    ]
+[    i-n-p-u-t    ]-Trust node-
 
--Trust node-
 -Initialize from trusted checkpoint-
 
 __________________________________________
-Response Block
+***Response Block [if trusted checkpoint successful]
+
+---Dissapears->Trusted checkpoint
+---Dissapears->[    i-n-p-u-t    ]-Trust node-
+
+{More information to be added once Issue with Chainsafe resolved}
+Issue Link: https://github.com/ChainSafe/eth2-light-client-demo/issues/11
 _________________________________________
