@@ -21,12 +21,12 @@ Trusted checkpoint
 
 -Initialize from trusted checkpoint-
 
-__________________________________________
-***Response Block [if trusted checkpoint successful]
-
----Dissapears->Trusted checkpoint
----Dissapears->[    i-n-p-u-t    ]-Trust node-
-
-{More information to be added once Issue with Chainsafe resolved}
+(?) Work In Progress: *description about errors*
 Issue Link: https://github.com/ChainSafe/eth2-light-client-demo/issues/11
-_________________________________________
+
+__________________________________________
+***Response Block [Errors]
+
+---------Errors---------------------------
+
+__________________________________________
