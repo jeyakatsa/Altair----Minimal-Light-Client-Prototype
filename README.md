@@ -1,3 +1,5 @@
+## [Light Client Server](https://github.com/jeyakatsa/teku/tree/master/light-client)
+
 #### Important:
 `git pull` Teku Build Reference repo consistently to stay up-to-date.
 
