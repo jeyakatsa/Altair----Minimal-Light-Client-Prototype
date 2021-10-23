@@ -6,8 +6,9 @@
 - Test (Lodestar): https://light-client-demo.lodestar.casa/
 
 ### Server Reference:
+- To Review: https://github.com/ChainSafe/lodestar/tree/master/packages/light-client
 - To Inform/update: https://github.com/ConsenSys/teku/issues/4230
-- To Review: https://notes.ethereum.org/@ralexstokes/S1RSe1JlF
+- To Read: https://notes.ethereum.org/@ralexstokes/S1RSe1JlF
 
 ### Tools Needed:
 - Spring Tool Suite 4 (for Demo): https://spring.io/tools
