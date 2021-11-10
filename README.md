@@ -3,19 +3,19 @@
 #### Important:
 `git pull` Teku Build Reference repo consistently to stay up-to-date.
 
-### Demo Reference:
-- Build (Lodestar[written in Typescript]): https://github.com/ChainSafe/eth2-light-client-demo
-- Test (Lodestar): https://light-client-demo.lodestar.casa/
-
 ### Server Reference:
 - To Review: https://github.com/ChainSafe/lodestar/tree/master/packages/light-client
 - To Inform/update: https://github.com/ConsenSys/teku/issues/4230
 - To Read: https://notes.ethereum.org/@ralexstokes/S1RSe1JlF
 
+### Demo Reference:
+- Build (Lodestar[written in Typescript]): https://github.com/ChainSafe/eth2-light-client-demo
+- Test (Lodestar): https://light-client-demo.lodestar.casa/
+
 ### Tools Needed:
-- Spring Tool Suite 4 (for Demo): https://spring.io/tools
 - Eclipse (for Server): https://www.eclipse.org/downloads/
 - Gradle (for Server): https://gradle.org/install/
+- Spring Tool Suite 4 (for Demo): https://spring.io/tools
 
 #### Teku Build Reference:
 https://github.com/ConsenSys/teku
