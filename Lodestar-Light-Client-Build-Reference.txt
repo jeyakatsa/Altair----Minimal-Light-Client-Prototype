@@ -1,0 +1,13 @@
+LightClientStore:
+
+-- SyncPeriod Locator
+
+lodestar/packages/types/src/primitive/types.ts 
+- SyncPeriod = Number64
+|
+V
+
+lodestar/packages/types/src/primitive/sszTypes.ts 
+- Number64 = new Number64UintType()
+|
+V
