@@ -12,3 +12,8 @@ lodestar/packages/types/src/primitive/sszTypes.ts
 |
 V
 
+Searched:
+- lodestar/packages/types/src/sszTypes.ts 
+- lodestar/packages/params/src/preset/ssz.ts 
+- lodestar/packages/lodestar/test/utils/ssz.ts 
+- lodestar/packages/types/src/merge/sszTypes.ts
