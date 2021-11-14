@@ -17,3 +17,9 @@ Searched:
 - lodestar/packages/params/src/preset/ssz.ts 
 - lodestar/packages/lodestar/test/utils/ssz.ts 
 - lodestar/packages/types/src/merge/sszTypes.ts
+- lodestar/packages/types/test/unit/ssz.test.ts 
+- lodestar/packages/types/src/altair/sszTypes.ts 
+- lodestar/packages/types/src/phase0/sszTypes.ts
+- lodestar/packages/types/src/allForks/sszTypes.ts 
+- lodestar/packages/params/src/preset/altair/ssz.ts
+- lodestar/packages/params/src/preset/phase0/ssz.ts 
