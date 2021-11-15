@@ -23,3 +23,27 @@ Searched:
 - lodestar/packages/types/src/allForks/sszTypes.ts 
 - lodestar/packages/params/src/preset/altair/ssz.ts
 - lodestar/packages/params/src/preset/phase0/ssz.ts 
+- lodestar/packages/spec-test-util/src/sszGeneric.ts 
+- lodestar/packages/config/src/chainConfig/sszTypes.ts 
+- lodestar/packages/spec-test-runner/test/spec/ssz/type.ts 
+- lodestar/packages/spec-test-runner/test/spec/ssz/generic/types.ts 
+- lodestar/packages/spec-test-runner/test/spec/allForks/ssz_static.ts
+- lodestar/packages/spec-test-runner/test/spec/merge/ssz_static.test.ts 
+- lodestar/packages/spec-test-runner/test/spec/ssz/util/specTypes/uint.ts 
+- lodestar/packages/lodestar/src/network/reqresp/encodingStrategies/sszSnappy/index.ts
+- lodestar/packages/lodestar/src/network/reqresp/encodingStrategies/sszSnappy/utils.ts 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
