@@ -31,7 +31,15 @@ Searched:
 - lodestar/packages/spec-test-runner/test/spec/merge/ssz_static.test.ts 
 - lodestar/packages/spec-test-runner/test/spec/ssz/util/specTypes/uint.ts 
 - lodestar/packages/lodestar/src/network/reqresp/encodingStrategies/sszSnappy/index.ts
-- lodestar/packages/lodestar/src/network/reqresp/encodingStrategies/sszSnappy/utils.ts 
+- lodestar/packages/lodestar/src/network/reqresp/encodingStrategies/sszSnappy/utils.ts
+- lodestar/packages/lodestar/src/network/reqresp/encodingStrategies/sszSnappy/decode.ts
+- lodestar/packages/lodestar/src/network/reqresp/encodingStrategies/sszSnappy/encode.ts
+- lodestar/packages/lodestar/src/network/reqresp/encodingStrategies/sszSnappy/errors.ts
+- lodestar/packages/lodestar/test/unit/network/reqresp/encodingStrategies/sszSnappy/testData.ts 
+- lodestar/packages/lodestar/test/unit/network/reqresp/encodingStrategies/sszSnappy/utils.test.ts 
+- lodestar/packages/lodestar/test/unit/network/reqresp/encodingStrategies/sszSnappy/decode.test.ts
+- lodestar/packages/lodestar/src/network/reqresp/encodingStrategies/sszSnappy/snappyFrames/uncompress.ts 
+- lodestar/packages/lodestar/test/unit/network/reqresp/encodingStrategies/sszSnappy/snappy-frames/uncompress.test.ts 
 
 
 
