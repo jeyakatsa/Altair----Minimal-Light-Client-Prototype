@@ -37,9 +37,10 @@ Searched:
 - lodestar/packages/lodestar/src/network/reqresp/encodingStrategies/sszSnappy/errors.ts
 - lodestar/packages/lodestar/test/unit/network/reqresp/encodingStrategies/sszSnappy/testData.ts 
 - lodestar/packages/lodestar/test/unit/network/reqresp/encodingStrategies/sszSnappy/utils.test.ts 
-- lodestar/packages/lodestar/test/unit/network/reqresp/encodingStrategies/sszSnappy/decode.test.ts
-- lodestar/packages/lodestar/src/network/reqresp/encodingStrategies/sszSnappy/snappyFrames/uncompress.ts 
-- lodestar/packages/lodestar/test/unit/network/reqresp/encodingStrategies/sszSnappy/snappy-frames/uncompress.test.ts 
+*- lodestar/packages/lodestar/test/unit/network/reqresp/encodingStrategies/sszSnappy/decode.test.ts
+*- lodestar/packages/lodestar/test/unit/network/reqresp/encodingStrategies/sszSnappy/encode.test.ts
+*- lodestar/packages/lodestar/src/network/reqresp/encodingStrategies/sszSnappy/snappyFrames/uncompress.ts 
+*- lodestar/packages/lodestar/test/unit/network/reqresp/encodingStrategies/sszSnappy/snappy-frames/uncompress.test.ts 
 
 
 
