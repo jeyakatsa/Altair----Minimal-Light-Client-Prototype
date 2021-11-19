@@ -1,6 +1,12 @@
 LightClientStore:
-
--- SyncPeriod Locator
+|
+|
+|
+|
+|
+|
+|
+------------------------ SyncPeriod Locator
 
 lodestar/packages/types/src/primitive/types.ts 
 - SyncPeriod = Number64
@@ -12,42 +18,30 @@ lodestar/packages/types/src/primitive/sszTypes.ts
 |
 V
 
-{Check primitive}
+chainsafe/ssz/packages/ssz/src/types/basic/uint.ts
+- export class Number64UintType extends NumberUintType
+- export class NumberUintType extends UintType<number>
+- export abstract class UintType<T> extends BasicType<T>
+|
+V
 
-Searched:
-*- lodestar/packages/types/src/sszTypes.ts 
-*- lodestar/packages/params/src/preset/ssz.ts 
-*- lodestar/packages/lodestar/test/utils/ssz.ts 
-*- lodestar/packages/types/src/merge/sszTypes.ts 
-*- lodestar/packages/types/test/unit/ssz.test.ts 
-*- lodestar/packages/types/src/altair/sszTypes.ts 
-*- lodestar/packages/types/src/phase0/sszTypes.ts 
-*- lodestar/packages/types/src/allForks/sszTypes.ts 
-*- lodestar/packages/params/src/preset/altair/ssz.ts 
-*- lodestar/packages/params/src/preset/phase0/ssz.ts 
-*- lodestar/packages/spec-test-util/src/sszGeneric.ts
-*- lodestar/packages/config/src/chainConfig/sszTypes.ts 
-*- lodestar/packages/spec-test-runner/test/spec/ssz/type.ts
-*- lodestar/packages/spec-test-runner/test/spec/ssz/generic/types.ts (REVISIT)
-*- lodestar/packages/spec-test-runner/test/spec/allForks/ssz_static.ts 
-*- lodestar/packages/spec-test-runner/test/spec/merge/ssz_static.test.ts 
-*- lodestar/packages/spec-test-runner/test/spec/ssz/util/specTypes/uint.ts (REVISIT)
-*- lodestar/packages/lodestar/src/network/reqresp/encodingStrategies/sszSnappy/index.ts
-*- lodestar/packages/lodestar/src/network/reqresp/encodingStrategies/sszSnappy/utils.ts
-*- lodestar/packages/lodestar/src/network/reqresp/encodingStrategies/sszSnappy/decode.ts
-*- lodestar/packages/lodestar/src/network/reqresp/encodingStrategies/sszSnappy/encode.ts
-*- lodestar/packages/lodestar/src/network/reqresp/encodingStrategies/sszSnappy/errors.ts
-*- lodestar/packages/lodestar/test/unit/network/reqresp/encodingStrategies/sszSnappy/testData.ts 
-*- lodestar/packages/lodestar/test/unit/network/reqresp/encodingStrategies/sszSnappy/utils.test.ts 
-*- lodestar/packages/lodestar/test/unit/network/reqresp/encodingStrategies/sszSnappy/decode.test.ts
-*- lodestar/packages/lodestar/test/unit/network/reqresp/encodingStrategies/sszSnappy/encode.test.ts
-*- lodestar/packages/lodestar/src/network/reqresp/encodingStrategies/sszSnappy/snappyFrames/uncompress.ts 
-*- lodestar/packages/lodestar/test/unit/network/reqresp/encodingStrategies/sszSnappy/snappy-frames/uncompress.test.ts 
+chainsafe/ssz/packages/ssz/src/types/basic/abstract.ts 
+- export abstract class BasicType<T> extends Type<T>
+|
+V
 
+chainsafe/ssz/packages/ssz/src/types/type.ts
+- export abstract class Type<T>
 
-
-
-
+_____________________________________________________________________
+|
+|
+|
+|
+|
+|
+|
+------------------------ altair.LightClientUpdate Locator
 
 
 
