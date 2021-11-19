@@ -43,6 +43,15 @@ _____________________________________________________________________
 |
 ------------------------ altair.LightClientUpdate Locator
 
+lodestar/packages/types/src/altair/sszTypes.ts
+- export const LightClientUpdate = new ContainerType<altair.LightClientUpdate>
+|
+V
+
+lodestar/packages/types/src/altair/types.ts 
+- export interface LightClientUpdate
+______________________________________________________________________
+ 
 
 
 
