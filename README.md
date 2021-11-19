@@ -4,9 +4,13 @@
 `git pull` Teku Build Reference repo consistently to stay up-to-date.
 
 ### Server Reference:
-- To Review: https://github.com/ChainSafe/lodestar/tree/master/packages/light-client
-- To Inform/update: https://github.com/ConsenSys/teku/issues/4230
-- To Read: https://notes.ethereum.org/@ralexstokes/S1RSe1JlF
+To Review: 
+- https://github.com/ChainSafe/lodestar/tree/master/packages/light-client
+- https://github.com/ChainSafe/lodestar/blob/master/packages/light-client/src/client/types.ts
+- https://github.com/ChainSafe/lodestar/blob/master/packages/types/src/altair/sszTypes.ts
+
+To Read: 
+- https://notes.ethereum.org/@ralexstokes/S1RSe1JlF
 
 ### Demo Reference:
 - Build (Lodestar[written in Typescript]): https://github.com/ChainSafe/eth2-light-client-demo
