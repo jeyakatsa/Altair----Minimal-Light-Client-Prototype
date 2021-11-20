@@ -1,6 +1,6 @@
-# [Step-By-Step Guide](https://hackmd.io/ZFINvY5fRUGrLK-BteZrug?view)
+# [Light Client Server](https://github.com/jeyakatsa/teku/tree/master/light-client)
 
-## [Light Client Server](https://github.com/jeyakatsa/teku/tree/master/light-client)
+## [Step-By-Step Guide](https://hackmd.io/ZFINvY5fRUGrLK-BteZrug?view)
 
 ### Below Information can be found via the Step-By-Step Guide:
 
@@ -10,7 +10,7 @@
 ### Server Reference:
 To Review: 
 - https://github.com/ChainSafe/lodestar/tree/master/packages/light-client
-- https://github.com/ChainSafe/lodestar/blob/master/packages/light-client/src/client/types.ts
+- https://github.com/ChainSafe/lodestar/blob/master/packages/types/src/altair/types.ts
 - https://github.com/ChainSafe/lodestar/blob/master/packages/types/src/altair/sszTypes.ts
 
 To Read: 
