@@ -10,7 +10,7 @@
 ### Server Reference:
 To Review: 
 - https://github.com/ChainSafe/lodestar/tree/master/packages/light-client
-- https://github.com/ChainSafe/lodestar/blob/master/packages/light-client/src/client/types.ts
+- https://github.com/ChainSafe/lodestar/blob/master/packages/types/src/altair/types.ts
 - https://github.com/ChainSafe/lodestar/blob/master/packages/types/src/altair/sszTypes.ts
 
 To Read: 
