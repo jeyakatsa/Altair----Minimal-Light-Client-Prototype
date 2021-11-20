@@ -1,4 +1,8 @@
+# [Step-By-Step Guide](https://hackmd.io/ZFINvY5fRUGrLK-BteZrug?view)
+
 ## [Light Client Server](https://github.com/jeyakatsa/teku/tree/master/light-client)
+
+### Below Information can be found via the Step-By-Step Guide:
 
 #### Important:
 `git pull` Teku Build Reference repo consistently to stay up-to-date.
