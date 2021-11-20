@@ -1,0 +1,43 @@
+Lodestar-Light-Client-Build-Reference:
+
+
+##### LightClientStore Reference:
+------------------------ SyncPeriod Locator
+
+lodestar/packages/types/src/primitive/types.ts 
+`SyncPeriod = Number64`
+
+V
+
+lodestar/packages/types/src/primitive/sszTypes.ts 
+`Number64 = new Number64UintType()`
+
+V
+
+chainsafe/ssz/packages/ssz/src/types/basic/uint.ts
+`export class Number64UintType extends NumberUintType`
+`export class NumberUintType extends UintType<number>`
+`export abstract class UintType<T> extends BasicType<T>`
+
+V
+
+chainsafe/ssz/packages/ssz/src/types/basic/abstract.ts 
+`export abstract class BasicType<T> extends Type<T>`
+
+V
+
+chainsafe/ssz/packages/ssz/src/types/type.ts
+`export abstract class Type<T>`
+
+_____________________________________________________________________
+
+------------------------ altair.LightClientUpdate Locator
+
+lodestar/packages/types/src/altair/sszTypes.ts
+`export const LightClientUpdate = new ContainerType<altair.LightClientUpdate>`
+
+V
+
+lodestar/packages/types/src/altair/types.ts 
+`export interface LightClientUpdate`
+______________________________________________________________________
