@@ -5,9 +5,9 @@ This Research and Development technical paper is created to help alleviate some 
 # [Server](https://github.com/jeyakatsa/teku/tree/master/light-client)
 
 ### Problem:
-`ArrayIntCache<Boolean> bits` function needs to be an array, but is not being accepted as an array
+`ArrayIntCache<Boolean> bits` function needs to be an array, but is not being accepted as an array.
 
-full function: 
+Full function: 
 ``` 
 public int sumBits(ArrayIntCache<Boolean> bits) {
   int sum = 0;
@@ -24,7 +24,15 @@ public int sumBits(ArrayIntCache<Boolean> bits) {
 ### Hypothesis:
 
 1. Refactor function into array.
-2. Find "ArrayLike" function/class within Teku repo.
+2. Find "ArrayLike" function/class within Teku repo. 
+Reference (in Typescript): 
+```
+export interface ArrayLike<T> {
+  [n: number]: T;
+  readonly length: number;
+  [Symbol.iterator](): Iterator<T>;
+}
+```
 
 ### Solution:
 
