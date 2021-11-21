@@ -94,6 +94,7 @@ export interface ArrayLike<T> {
 - - - Class: AbstractSszMutablePrimitiveCollection ***<- possibility***
 - - - Class: sszSerializationLength ***<- possibility***
 - - - Class: BitvectorImpl
+- 
 -------------------------------------------------------
 ### Solution:
 
