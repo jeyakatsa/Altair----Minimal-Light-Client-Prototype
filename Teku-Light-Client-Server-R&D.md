@@ -20,11 +20,16 @@ public int sumBits(ArrayIntCache<Boolean> bits) {
 }
 ```  
 #### Function Source: https://github.com/jeyakatsa/teku/blob/master/light-client/src/main/java/tech/pegasys/teku/lightclient/server/Utilities.java
-
+----------------------------------------------------
 ### Hypothesis:
 
-1. Refactor function into array.
-2. Find "ArrayLike" function/class within Teku repo. 
+1. Refactor function into array
+#### Result: 
+*Unresponsive*
+
+----------------------------------------------
+
+2. Find "ArrayLike" function/class within Teku repo and applu. 
 Reference (in Typescript): 
 ```
 export interface ArrayLike<T> {
@@ -34,6 +39,18 @@ export interface ArrayLike<T> {
 }
 ```
 
+#### Result:
+*Serched:* 
+- Folder: sssz/generator/main
+- Package: tech.pegasys.teku.ssz
+- Class: ContainersGenerator
+- Package: tech.pegasys.teku.ssz.containers
+- Class: ContainerSchemaTemplate
+- Class: ContainerTemplate
+- Folder: ssz/generator/test
+- Package: tech.pegasys.teku.ssz.containers
+- Class: GeneratedClassesNotModified 
+-------------------------------------------------------
 ### Solution:
 
 TBD (To Be Determined)
