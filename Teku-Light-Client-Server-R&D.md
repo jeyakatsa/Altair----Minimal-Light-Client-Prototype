@@ -73,7 +73,27 @@ export interface ArrayLike<T> {
 - - - Class: SszPrimitive
 - - - Class: SszUnion
 - - - Class: SszVector
-- - Package: 
+- - Package: tech.pegasys.teku.ssz.cache
+- - - Class: ArrayIntCache ***<- possibility***
+- - - Class: Cache ***<- possibility***
+- - - Class: IntCache ***<- possibility***
+- - - Class: NoopIntCache ***<- possibility***
+- - - Class: SoftRefIntCache ***<- possibility***
+- - Package: tech.pegasys.teku.ssz.collections
+- - - Class: SszBitlist
+- - - Class: SszBitvector
+- - - Class: SszByteList ***<- possibility***
+- - - Class: SszBytes32Vector
+- - - Class: SszByteVector
+- - - Class: SszMutableBytes32Vector
+- - - Class: SszMutablePrimitiveCollection
+- - - Class: SszMutablePrimitiveList
+- - - Class: SszMutablePrimitiveVector
+- - - Class: SszUInt64List
+- - Package: tech.pegasys.teku.ssz.collections.impl
+- - - Class: AbstractSszMutablePrimitiveCollection ***<- possibility***
+- - - Class: sszSerializationLength ***<- possibility***
+- - - Class: BitvectorImpl
 -------------------------------------------------------
 ### Solution:
 
