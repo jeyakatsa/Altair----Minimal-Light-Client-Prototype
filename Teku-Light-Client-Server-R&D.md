@@ -29,7 +29,7 @@ public int sumBits(ArrayIntCache<Boolean> bits) {
 
 ----------------------------------------------
 
-2. Find "ArrayLike" function/class within Teku repo and applu. 
+2. Find "ArrayLike" function/class within Teku repo and apply. 
 Reference (in Typescript): 
 ```
 export interface ArrayLike<T> {
@@ -41,15 +41,39 @@ export interface ArrayLike<T> {
 
 #### Result:
 *Serched:* 
-- Folder: sssz/generator/main
-- Package: tech.pegasys.teku.ssz
-- Class: ContainersGenerator
-- Package: tech.pegasys.teku.ssz.containers
-- Class: ContainerSchemaTemplate
-- Class: ContainerTemplate
+- Folder: ssz/generator/main
+- - Package: tech.pegasys.teku.ssz
+- - - Class: ContainersGenerator
+- - Package: tech.pegasys.teku.ssz.containers
+- - - Class: ContainerSchemaTemplate
+- - - Class: ContainerTemplate
 - Folder: ssz/generator/test
-- Package: tech.pegasys.teku.ssz.containers
-- Class: GeneratedClassesNotModified 
+- - Package: tech.pegasys.teku.ssz.containers
+- - - Class: GeneratedClassesNotModified 
+- Folder: ssz/main
+- - Package: tech.pegasys.teku.ssz
+- - - Class: InvalidValueSchemaException
+- - - Class: Merkleizable
+- - - Class: SimpleOffsetSerializable
+- - - Class: SszCollection
+- - - Class: SszComposite
+- - - Class: SszContainer
+- - - Class: SszData
+- - - Class: SszList
+- - - Class: SszMutableCollection
+- - - Class: SszMutableComposite
+- - - Class: SszMutableContainer
+- - - Class: SszMutableData
+- - - Class: SszMutableList
+- - - Class: SszMutableRefComposite
+- - - Class: SszMutableRefContainer
+- - - Class: SszMutableRefList
+- - - Class: SszMutableRefVector
+- - - Class: szMutableVector
+- - - Class: SszPrimitive
+- - - Class: SszUnion
+- - - Class: SszVector
+- - Package: 
 -------------------------------------------------------
 ### Solution:
 
