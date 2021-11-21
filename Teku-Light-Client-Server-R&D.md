@@ -1,4 +1,4 @@
-## Research and Development for Light Client Server
+## Research and Development for Teku Light Client Server
 
 This Research and Development technical paper is created to help alleviate some bottlenecks within and during the light client server build for Teku.
 
