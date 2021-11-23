@@ -107,6 +107,35 @@ export interface ArrayLike<T> {
 - - - Class: SszUInt64ListImpl
 - - Package: tech.pegasys.teku.ssz.containers
 - - - Class: Containers *<-all most likely do not need to be checked*
+- - Package: tech.pegasys.teku.ssz.impl
+- - - Class: AbstractSszCollection
+- - - Class: AbstractSszComposite
+- - - Class: AbstractSszImmutableContainer
+- - - Class: AbstractSszMutableCollection
+- - - Class: AbstractSszMutableComposite
+- - - Class: AbstractSszPrimitive ***<- possibility***
+- - - Class: SszContainerImpl
+- - - Class: SszListImpl
+- - - Class: SszMutableContainerImpl
+- - - Class: SszMutableListImpl
+- - - Class: SszMutableVectorImpl
+- - - Class: SszUnionImpl
+- - - Class: SszUtils 
+- - - Class: SszVectorImpl
+- - Package: tech.pegasys.teku.ssz.primitive
+- - - Class: SszBit
+- - - Class: SszByte
+- - - Class: SszBytes32
+- - - Class: SszBytes4
+- - - Class: SszNone
+- - - Class: SszUInt256
+- - - Class: SszUInt64
+- - Package: tech.pegasys.teku.ssz.schema
+- - - Class: SszCollectionSchema
+- - - Class: SszCompositeSchema
+- - - Class: SszContainerSchema
+- - - Class: SszListSchema
+- - - Class: SszPrimitiveSchema
 -------------------------------------------------------
 ### Solution:
 
