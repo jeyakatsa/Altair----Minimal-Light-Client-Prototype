@@ -58,8 +58,8 @@ export interface ArrayLike<T> {
 - - - Class: SszCollection
 - - - Class: SszComposite
 - - - Class: SszContainer
-- - - Class: SszData
-- - - Class: SszList
+- - - Class: SszData ***<- possibility***
+- - - Class: SszList ***<- possibility***
 - - - Class: SszMutableCollection
 - - - Class: SszMutableComposite
 - - - Class: SszMutableContainer
@@ -92,9 +92,21 @@ export interface ArrayLike<T> {
 - - - Class: SszUInt64List
 - - Package: tech.pegasys.teku.ssz.collections.impl
 - - - Class: AbstractSszMutablePrimitiveCollection ***<- possibility***
-- - - Class: sszSerializationLength ***<- possibility***
+- - - Class: BitlistImpl ***<- possibility***
 - - - Class: BitvectorImpl
-- 
+- - - Class: SszBitlistImpl ***<- very strong possibility***
+- - - Class: SszBitvectorImpl ***<- very strong possibility***
+- - - Class: SszBytes32VectorImpl ***<- strong possibility***
+- - - Class: SszByteVectorImpl ***<- strong possibility***
+- - - Class: SszMutableBytes32VectorImpl ***<- strong possibility***
+- - - Class: SszMutablePrimitiveListImpl ***<- possibility***
+- - - Class: SszMutablePrimitiveVectorImpl ***<- possibility***
+- - - Class: SszMutableUInt64ListImpl
+- - - Class: SszPrimitiveListImpl
+- - - Class: SszPrimitiveVectorImpl
+- - - Class: SszUInt64ListImpl
+- - Package: tech.pegasys.teku.ssz.containers
+- - - Class: Containers *<-all most likely do not need to be checked*
 -------------------------------------------------------
 ### Solution:
 
