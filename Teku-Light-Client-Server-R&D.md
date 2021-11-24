@@ -136,6 +136,71 @@ export interface ArrayLike<T> {
 - - - Class: SszContainerSchema
 - - - Class: SszListSchema
 - - - Class: SszPrimitiveSchema
+- - - Class: SszPrimitiveSchemas
+- - - Class: SszSchema ***<- possibility***
+- - - Class: SszSchemaHints
+- - - Class: SszType
+- - - Class: SszUnionSchema ***<- possibility***
+- - - Class: SszVectorSchema
+- - Package: tech.pegasys.teku.ssz.schema.collections
+- - - Class: SszBitlistSchema ***<- possibility***
+- - - Class: SszBitvectorSchema ***<- possibility***
+- - - Class: SszByteListSchema
+- - - Class: SszBytes32VectorSchema
+- - - Class: SszByteVectorSchema
+- - - Class: SszPrimitiveCollectionSchema
+- - - Class: SszPrimitiveListSchema
+- - - Class: SszPrimitiveVectorSchema
+- - - Class: SszUInt64ListSchema
+- - Package: tech.pegasys.teku.ssz.schema.collections.impl
+- - - Class: SchemaUtils
+- - - Class: SszBitlistSchemaImpl
+- - - Class: SszBitvectorSchemaImpl
+- - - Class: SszByteListSchemaImpl
+- - - Class: SszBytes32VectorSchemaImpl
+- - - Class: SszByteVectorSchemaImpl
+- - - Class: SszPrimitiveListSchemaImpl
+- - - Class: SszPrimitiveVectorSchemaImpl
+- - - Class: SszUInt64ListSchemaImpl
+- - Package: tech.pegasys.teku.ssz.schema.impl
+- - - Class: AbstractSszCollectionSchema
+- - - Class: AbstractSszContainerSchema
+- - - Class: AbstractSszListSchema
+- - - Class: AbstractSszPrimitiveSchema
+- - - Class: AbstractSszVectorSchema
+- - - Class: LoadingUtil
+- - - Class: SszListSchemaImpl
+- - - Class: SszUnionSchemaImpl
+- - - Class: StoringUtil
+- - Package: tech.pegasys.teku.ssz.sos
+- - - Class: SimpleSszReader
+- - - Class: SszByteArrayWriter
+- - - Class: SszDeserializeException
+- - - Class: SszField
+- - - Class: SszLengthBounds
+- - - Class: SszReader
+- - - Class: SszWriter
+- - Package: tech.pegasys.teku.ssz.tree
+- - - Class: BranchNode
+- - - Class: GIndexUtil
+- - - Class: LazyBranchNode
+- - - Class: LeafDataNode
+- - - Class: LeafNode
+- - - Class: SimpleBranchNode
+- - - Class: SimpleLeafNode
+- - - Class: SszNodeTemplate
+- - - Class: SszSuperNode
+- - - Class: TillIndexVisitor
+- - - Class: TreeNode
+- - - Class: TreeNodeSource
+- - - Class: TreeNodeStore
+- - - Class: TreeUpdates
+- - - Class: TreeUtil
+- - - Class: TreeVisitor
+- - Package: tech.pegasys.teku.ssz.type
+- - - Class: Bytes20
+- - - Class: Bytes4
+- - - Class: Bytes8
 -------------------------------------------------------
 ### Solution:
 
