@@ -25,7 +25,7 @@ public int sumBits(ArrayIntCache<Boolean> bits) {
 
 1. Refactor function into array
 #### Result: 
-*Unresponsive*
+*In Process*
 
 ----------------------------------------------
 
@@ -201,6 +201,7 @@ export interface ArrayLike<T> {
 - - - Class: Bytes20
 - - - Class: Bytes4
 - - - Class: Bytes8
+*Searched, Tested, Not Applicable*
 -------------------------------------------------------
 ### Solution:
 
