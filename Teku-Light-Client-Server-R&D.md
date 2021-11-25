@@ -205,6 +205,17 @@ export interface ArrayLike<T> {
 - Folder: data/beaconrestapi/main
 - - Package: tech.pegasys.teku.beaconrestapi
 - - - Class: ListQueryParameterUtils
+- Folder: networking/net/main
+- - Package: tech.pegasys.teku.networking.nat
+- - - Class: TekuRegistryListener
+- Folder: networking/p2p/rpc
+- - Package: tech.pegasys.teku.networking.p2p.rpc
+- - - Class: RpcMethod
+- - - Class: RpcRequestHandler ***<- extremely strong possibility***
+- - - Class: RpcRequestHandler
+- - - Class: RpcStreamController
+- - - Class: StreamClosedException
+- - - Class: StreamTimeoutException
 -------------------------------------------------------
 ### Solution:
 
