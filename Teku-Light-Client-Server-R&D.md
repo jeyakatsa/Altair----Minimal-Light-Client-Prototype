@@ -58,8 +58,8 @@ export interface ArrayLike<T> {
 - - - Class: SszCollection
 - - - Class: SszComposite
 - - - Class: SszContainer
-- - - Class: SszData ***<- possibility***
-- - - Class: SszList ***<- possibility***
+- - - Class: SszData ***<- possibility*** *Tested*
+- - - Class: SszList ***<- possibility*** *Tested*
 - - - Class: SszMutableCollection
 - - - Class: SszMutableComposite
 - - - Class: SszMutableContainer
@@ -74,15 +74,15 @@ export interface ArrayLike<T> {
 - - - Class: SszUnion
 - - - Class: SszVector
 - - Package: tech.pegasys.teku.ssz.cache
-- - - Class: ArrayIntCache ***<- possibility***
-- - - Class: Cache ***<- possibility***
-- - - Class: IntCache ***<- possibility***
-- - - Class: NoopIntCache ***<- possibility***
-- - - Class: SoftRefIntCache ***<- possibility***
+- - - Class: ArrayIntCache ***<- possibility*** *Tested*
+- - - Class: Cache ***<- possibility*** *Tested*
+- - - Class: IntCache ***<- possibility*** *Tested*
+- - - Class: NoopIntCache ***<- possibility*** *Tested*
+- - - Class: SoftRefIntCache ***<- possibility*** *Tested*
 - - Package: tech.pegasys.teku.ssz.collections
 - - - Class: SszBitlist
 - - - Class: SszBitvector
-- - - Class: SszByteList ***<- possibility***
+- - - Class: SszByteList ***<- possibility*** *Tested*
 - - - Class: SszBytes32Vector
 - - - Class: SszByteVector
 - - - Class: SszMutableBytes32Vector
@@ -91,16 +91,16 @@ export interface ArrayLike<T> {
 - - - Class: SszMutablePrimitiveVector
 - - - Class: SszUInt64List
 - - Package: tech.pegasys.teku.ssz.collections.impl
-- - - Class: AbstractSszMutablePrimitiveCollection ***<- possibility***
-- - - Class: BitlistImpl ***<- possibility***
+- - - Class: AbstractSszMutablePrimitiveCollection ***<- possibility*** *Tested*
+- - - Class: BitlistImpl
 - - - Class: BitvectorImpl
-- - - Class: SszBitlistImpl ***<- very strong possibility***
-- - - Class: SszBitvectorImpl ***<- very strong possibility***
-- - - Class: SszBytes32VectorImpl ***<- strong possibility***
-- - - Class: SszByteVectorImpl ***<- strong possibility***
-- - - Class: SszMutableBytes32VectorImpl ***<- strong possibility***
-- - - Class: SszMutablePrimitiveListImpl ***<- possibility***
-- - - Class: SszMutablePrimitiveVectorImpl ***<- possibility***
+- - - Class: SszBitlistImpl ***<- very strong possibility*** *Tested*
+- - - Class: SszBitvectorImpl ***<- very strong possibility*** *Tested*
+- - - Class: SszBytes32VectorImpl ***<- strong possibility*** *Tested*
+- - - Class: SszByteVectorImpl ***<- strong possibility*** *Tested*
+- - - Class: SszMutableBytes32VectorImpl ***<- strong possibility*** *Tested*
+- - - Class: SszMutablePrimitiveListImpl ***<- possibility*** *Tested*
+- - - Class: SszMutablePrimitiveVectorImpl ***<- possibility*** *Tested*
 - - - Class: SszMutableUInt64ListImpl
 - - - Class: SszPrimitiveListImpl
 - - - Class: SszPrimitiveVectorImpl
@@ -113,7 +113,7 @@ export interface ArrayLike<T> {
 - - - Class: AbstractSszImmutableContainer
 - - - Class: AbstractSszMutableCollection
 - - - Class: AbstractSszMutableComposite
-- - - Class: AbstractSszPrimitive ***<- possibility***
+- - - Class: AbstractSszPrimitive ***<- possibility*** *Tested*
 - - - Class: SszContainerImpl
 - - - Class: SszListImpl
 - - - Class: SszMutableContainerImpl
@@ -137,14 +137,14 @@ export interface ArrayLike<T> {
 - - - Class: SszListSchema
 - - - Class: SszPrimitiveSchema
 - - - Class: SszPrimitiveSchemas
-- - - Class: SszSchema ***<- possibility***
+- - - Class: SszSchema ***<- possibility*** *Tested*
 - - - Class: SszSchemaHints
 - - - Class: SszType
-- - - Class: SszUnionSchema ***<- possibility***
+- - - Class: SszUnionSchema ***<- possibility*** *Tested*
 - - - Class: SszVectorSchema
 - - Package: tech.pegasys.teku.ssz.schema.collections
-- - - Class: SszBitlistSchema ***<- possibility***
-- - - Class: SszBitvectorSchema ***<- possibility***
+- - - Class: SszBitlistSchema ***<- possibility*** *Tested*
+- - - Class: SszBitvectorSchema ***<- possibility*** *Tested*
 - - - Class: SszByteListSchema
 - - - Class: SszBytes32VectorSchema
 - - - Class: SszByteVectorSchema
