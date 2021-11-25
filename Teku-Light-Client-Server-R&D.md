@@ -202,6 +202,9 @@ export interface ArrayLike<T> {
 - - - Class: Bytes4
 - - - Class: Bytes8
 *Searched, Tested, Not Applicable*
+- Folder: data/beaconrestapi/main
+- - Package: tech.pegasys.teku.beaconrestapi
+- - - Class: ListQueryParameterUtils
 -------------------------------------------------------
 ### Solution:
 
