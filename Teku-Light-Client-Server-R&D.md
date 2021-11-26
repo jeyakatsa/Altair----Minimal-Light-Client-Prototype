@@ -219,7 +219,7 @@ export interface ArrayLike<T> {
 -------------------------------------------------------
 ### Solution:
 
-The first hypothesis was the correct trajectory. Discovered a "Generic Array" needed to be created as a Class or Interface within the Light-Client folder/package.
+The first hypothesis was the correct trajectory. Discovered a "Generic Array" needed to be created as a Class or Interface within the Light-Client folder/package. 
 
 Code (*to be refactored if necessary*):
 ```
@@ -250,3 +250,7 @@ public class ArrayLike<T>
 
 }
 ```
+
+**But**, Java does not support Generic Arrays so this code was implemented in response:
+
+`List<Boolean> bits = new ArrayList<Boolean>();`
