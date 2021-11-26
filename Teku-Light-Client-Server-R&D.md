@@ -25,7 +25,7 @@ public int sumBits(ArrayIntCache<Boolean> bits) {
 
 1. Refactor function into array
 #### Result: 
-*In Process*
+*Recorded in Solution*
 
 ----------------------------------------------
 
@@ -219,4 +219,34 @@ export interface ArrayLike<T> {
 -------------------------------------------------------
 ### Solution:
 
-TBD (To Be Determined)
+The first hypothesis was the correct trajectory. Discovered a "Generic Array" needed to be created as a Class or Interface within the Light-Client folder/package.
+
+Code (*to be refactored if necessary*):
+```
+public class ArrayLike<T>
+{
+    private final Object[] arr;
+    public final int number;
+ 
+    // constructor
+    public ArrayLike(int number)
+    {
+        // Creates a new object array of the specified length
+        arr = new Object[number];
+        this.number = number;
+    }
+ 
+    // Method to get object present at index `i` in the array
+    T get(int i) {
+        @SuppressWarnings("unchecked")
+        final T e = (T)arr[i];
+        return e;
+    }
+ 
+    // Method to set a value `e` at index `i` in the array
+    void set(int i, T e) {
+        arr[i] = e;
+    }
+
+}
+```
