@@ -25,6 +25,8 @@ To Read:
 - Eclipse (*free* for Server):  https://www.eclipse.org/downloads/
 - Spring Tool Suite 4 (*free* for Demo): https://spring.io/tools
 
+***Gradle install not needed if IntelliJ is used as primary tool.***
+
 ### Build/Test Tool Needed:
 - Gradle (*free* for Server): https://gradle.org/install/
 
