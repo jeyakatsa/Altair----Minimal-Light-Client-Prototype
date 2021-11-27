@@ -20,10 +20,13 @@ To Read:
 - Build (Lodestar[written in Typescript]): https://github.com/ChainSafe/eth2-light-client-demo
 - Test (Lodestar): https://light-client-demo.lodestar.casa/
 
-### Tools Needed:
-- Eclipse (for Server): https://www.eclipse.org/downloads/
-- Gradle (for Server): https://gradle.org/install/
-- Spring Tool Suite 4 (for Demo): https://spring.io/tools
+### Coding Tools Needed:
+- IntelliJ (*best* for Server & Demo): https://www.jetbrains.com/idea/
+- Eclipse (*free* for Server):  https://www.eclipse.org/downloads/
+- Spring Tool Suite 4 (*free* for Demo): https://spring.io/tools
+
+### Build/Test Tool Needed:
+- Gradle (*free* for Server): https://gradle.org/install/
 
 #### Teku Build Reference:
 https://github.com/ConsenSys/teku
