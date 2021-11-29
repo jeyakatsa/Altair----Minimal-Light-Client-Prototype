@@ -15,7 +15,9 @@ IntelliJ refusing to reveal compilation errors.
 #### Result: 
 *Re-Installed, problem not solved*
 
-2. TBD
+2. Redirect Environmental Variables
+#### Result: 
+*In progress*
 
 ----------------------------------------------
 ### Solution:
