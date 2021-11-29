@@ -5,6 +5,24 @@ This Research and Development technical paper is created to help alleviate some 
 # [Server](https://github.com/jeyakatsa/teku/tree/master/light-client)
 
 ### Problem:
+
+IntelliJ refusing to reveal compilation errors.
+
+----------------------------------------------------
+### Hypothesis:
+
+1. Re-install IntelliJ
+#### Result: 
+*Re-Installed, problem not solved*
+
+2. TBD
+
+----------------------------------------------
+### Solution:
+TBD (To Be Determined)
+
+-------------------------------------------------------
+### Problem:
 `ArrayIntCache<Boolean> bits` function needs to be an array, but is not being accepted as an array.
 
 Full function: 
