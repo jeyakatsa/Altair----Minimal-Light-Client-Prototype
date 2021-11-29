@@ -17,6 +17,17 @@ IntelliJ refusing to reveal compilation errors.
 
 2. Redirect Environmental Variables
 #### Result: 
+The default is set to `$USER_HOME/.gradle`. It can be overridden in one of the following ways:
+
+You can set the `GRADLE_USER_HOME` environment variable (for example, `%APPDATA%\.gradle`). For more information, refer to Gradle documentation. The variable's value is picked up automatically. The new path is reflected in the field.
+
+You might need to restart your IDE in order for this change to take effect.
+
+You can specify the location manually: type the location in the path or click the Browse button and in the dialog that opens, select the needed directory.
+
+Manually entered values take precedence over the environment variables.
+
+If the Gradle location is set in Use Gradle from with the Specified location option and its path is defined in the environment variable `GRADLE_HOME` or `PATH`, IntelliJ IDEA deduces this location and suggests its path as the default value.
 *In progress*
 
 ----------------------------------------------
