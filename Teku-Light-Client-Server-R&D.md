@@ -28,6 +28,9 @@ You can specify the location manually: type the location in the path or click th
 Manually entered values take precedence over the environment variables.
 
 If the Gradle location is set in Use Gradle from with the Specified location option and its path is defined in the environment variable `GRADLE_HOME` or `PATH`, IntelliJ IDEA deduces this location and suggests its path as the default value.
+
+*Tried implementing `/.gradle`, did not work, moving onto other possible solutions*
+
 *In progress*
 
 ----------------------------------------------
