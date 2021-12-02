@@ -33,6 +33,9 @@ If the Gradle location is set in Use Gradle from with the Specified location opt
 
 - "Use Gradle from [Specified Location], automatically directs to undesired file, currently trying to implement new re-direction"
 
+#### Discovery:
+`.gradle` files report compilation errors, `.java` files do not.
+
 *In progress*
 
 ----------------------------------------------
