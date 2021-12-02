@@ -31,6 +31,8 @@ If the Gradle location is set in Use Gradle from with the Specified location opt
 
 *Tried implementing `/.gradle`, did not work, moving onto other possible solutions*
 
+- "Use Gradle from [Specified Location], automatically directs to undesired file, currently trying to implement new re-direction"
+
 *In progress*
 
 ----------------------------------------------
