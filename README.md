@@ -23,11 +23,11 @@ To Read:
 - [Test (Lodestar)](https://light-client-demo.lodestar.casa/)
 
 ### Build/Test Tool Needed:
-- [Gradle (*free* for Server)](https://gradle.org/install/)
+- [Gradle](https://gradle.org/install/)
 
 ### Coding Tool/s Needed:
 - [IntelliJ (for Server & Demo)](https://www.jetbrains.com/idea/)
-- [Spring Tool Suite 4 (for Demo *only*)](https://spring.io/tools)
+- [Spring Tool Suite 4 (*optional* for Demo)](https://spring.io/tools)
 
 #### [Teku Build Reference](https://github.com/ConsenSys/teku)
 *Do Not Use* Teku Build Reference *verbatim* as its dependencies are consistently being refactored/reorganized thus will create an infinite loop of issues for your build.
