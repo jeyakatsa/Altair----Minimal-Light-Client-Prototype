@@ -42,7 +42,7 @@ Uninstall/delete all Java development kits and reinstall via IntelliJ.
 
 ----------------------------------------------
 ### Solution:
-TBD (To Be Determined)
+Create an entirely new project using IntelliJ as IntelliJ doesn't coherently absorb projects built by other tools (i.e Eclipse, SpringBoot, etc).
 
 -------------------------------------------------------
 ### Problem:
