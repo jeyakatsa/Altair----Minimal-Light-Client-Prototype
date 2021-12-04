@@ -36,6 +36,8 @@ If the Gradle location is set in Use Gradle from with the Specified location opt
 #### Discovery:
 `.gradle` files report compilation errors, `.java` files do not.
 
+#### Trial & Error Approach:
+Uninstall/delete all Java development kits and reinstall via IntelliJ.
 *In progress*
 
 ----------------------------------------------
