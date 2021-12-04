@@ -22,13 +22,12 @@ To Read:
 - [Build (Lodestar[written in Typescript])](https://github.com/ChainSafe/eth2-light-client-demo)
 - [Test (Lodestar)](https://light-client-demo.lodestar.casa/)
 
-### Coding Tools Needed:
-- [IntelliJ (*best* for Server & Demo)](https://www.jetbrains.com/idea/)
-- [Eclipse (*free* for Server)](https://www.eclipse.org/downloads/)
-- [Spring Tool Suite 4 (*free* for Demo)](https://spring.io/tools)
-
 ### Build/Test Tool Needed:
 - [Gradle (*free* for Server)](https://gradle.org/install/)
+
+### Coding Tool/s Needed:
+- [IntelliJ (for Server & Demo)](https://www.jetbrains.com/idea/)
+- [Spring Tool Suite 4 (for Demo *only*)](https://spring.io/tools)
 
 #### [Teku Build Reference](https://github.com/ConsenSys/teku)
 *Do Not Use* Teku Build Reference *verbatim* as its dependencies are consistently being refactored/reorganized thus will create an infinite loop of issues for your build.
