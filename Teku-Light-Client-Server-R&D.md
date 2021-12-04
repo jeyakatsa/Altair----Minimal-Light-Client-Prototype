@@ -59,8 +59,9 @@ public int sumBits(ArrayIntCache<Boolean> bits) {
   }
   return sum;
 }
-```  
-#### Function Source: https://github.com/jeyakatsa/teku/blob/master/light-client/src/main/java/tech/pegasys/teku/lightclient/server/Utilities.java
+```
+You can view the source code here: 
+#### [Function Source](https://github.com/jeyakatsa/teku/blob/master/light-client/src/main/java/tech/pegasys/teku/lightclient/server/Utilities.java)
 ----------------------------------------------------
 ### Hypothesis:
 
