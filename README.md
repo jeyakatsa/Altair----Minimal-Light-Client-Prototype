@@ -30,8 +30,6 @@ To Read:
 - [Spring Tool Suite 4 (*optional* for Demo)](https://spring.io/tools)
 
 #### [Teku Build Reference](https://github.com/ConsenSys/teku)
-*Do Not Use* Teku Build Reference *verbatim* as its dependencies are consistently being refactored/reorganized thus will create an infinite loop of issues for your build.
-Being creative (adding your own ingredients to the recipe of this prototype) is extremely important. 
 
 #### [Altair----Minimal-Light-Client-Prototype Specs](https://github.com/ethereum/consensus-specs/blob/dev/specs/altair/sync-protocol.md//)
 
