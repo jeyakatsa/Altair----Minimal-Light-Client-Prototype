@@ -2,13 +2,47 @@
 
 This Research and Development technical paper is created to help alleviate some bottlenecks within and during the light client server build for Teku.
 
+**Problems & Solutions ordered top-to-down from recent-to-oldest**
+
 # [Server](https://github.com/jeyakatsa/teku/tree/master/light-client)
 
-### Problem:
+## Problem:
+
+Function:
+
+```
+public boolean isZeroHash() {
+    for (int i = 0; i < root.length; i++) {
+        if (root[i] !== 0) {
+            return false;
+        }
+    }
+    return true;
+}
+```
+
+Refusing to recognize `!==` as proper expression for `private Bytes32[] root;`.
+
+### Hypothesis:
+
+1. Refactor function/s.
+#### Result: 
+- Refactoring `private Bytes32[] root;` into `private Bytes32 root[32];` not sufficient.
+- Refactoring `private Bytes32[] root;` into `private Bytes32 root;` not sufficient.
+- Refactoring `int i = 0; i < root.length; i++` into `byte i = 0; i < root.length; i++` not sufficient.
+
+##### *Researching Primitive Data Types for Java.*
+
+##### Findings:
+Most developers expect to see an `int` value  within Byte functions for 32-bit or 64-bit registers so changing `int` into `bytes` or any other primitive type will most likely not be sufficient.
+
+## Solution:
+*TBD (To Be Determined)*
+______________________________________________________________
+## Problem:
 
 IntelliJ refusing to reveal compilation errors.
 
-----------------------------------------------------
 ### Hypothesis:
 
 1. Re-install IntelliJ
@@ -38,14 +72,12 @@ If the Gradle location is set in Use Gradle from with the Specified location opt
 
 #### Trial & Error Approach:
 Uninstall/delete all Java development kits and reinstall via IntelliJ.
-*In progress*
 
-----------------------------------------------
-### Solution:
-Create an entirely new project using IntelliJ as IntelliJ doesn't coherently absorb projects built by other tools (i.e Eclipse, SpringBoot, etc).
+## Solution:
+First two Hypotheses were incorrect. The solution was to create an entirely new project using IntelliJ as IntelliJ doesn't coherently absorb projects built by other tools (i.e Eclipse, SpringBoot, etc).
 
--------------------------------------------------------
-### Problem:
+______________________________________________________
+## Problem:
 `ArrayIntCache<Boolean> bits` function needs to be an array, but is not being accepted as an array.
 
 Full function: 
@@ -62,14 +94,12 @@ public int sumBits(ArrayIntCache<Boolean> bits) {
 ```
 You can view the source code here: 
 #### [Function Source](https://github.com/jeyakatsa/teku/blob/master/light-client/src/main/java/tech/pegasys/teku/lightclient/server/Utilities.java)
-----------------------------------------------------
+
 ### Hypothesis:
 
 1. Refactor function into array
 #### Result: 
 *Recorded in Solution*
-
-----------------------------------------------
 
 2. Find "ArrayLike" function/class within Teku repo and apply. 
 Reference (in Typescript): 
@@ -258,8 +288,8 @@ export interface ArrayLike<T> {
 - - - Class: RpcStreamController
 - - - Class: StreamClosedException
 - - - Class: StreamTimeoutException
--------------------------------------------------------
-### Solution:
+
+## Solution:
 
 The first hypothesis was the correct trajectory. Discovered a "Generic Array" needed to be created as a Class or Interface within the Light-Client folder/package. 
 
