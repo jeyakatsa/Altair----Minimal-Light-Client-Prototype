@@ -26,15 +26,22 @@ Refusing to recognize `!==` as proper expression for `private Bytes32[] root;`.
 ### Hypothesis:
 
 1. Refactor function/s.
-#### Result: 
+#### Test Cases: 
 - Refactoring `private Bytes32[] root;` into `private Bytes32 root[32];` not sufficient.
 - Refactoring `private Bytes32[] root;` into `private Bytes32 root;` not sufficient.
 - Refactoring `int i = 0; i < root.length; i++` into `byte i = 0; i < root.length; i++` not sufficient.
 
-##### *Researching Primitive Data Types for Java.*
+*Researching Primitive Data Types for Java.*
 
 ##### Findings:
 Most developers expect to see an `int` value  within Byte functions for 32-bit or 64-bit registers so changing `int` into `bytes` or any other primitive type will most likely not be sufficient.
+
+##### Test Cases:
+- Refactoring `root` into `int[] root = new int[20];` is insufficient as a test case.
+- Refactoring `root[i] != 0` while keeping `root` into `int[] root = new int[20];` solves `!==` operand issue.
+
+##### Findings:
+`!==` operand not sufficient for Java functions, yet `!=` cannot be applied to `Bytes32`.
 
 ## Solution:
 *TBD (To Be Determined)*
