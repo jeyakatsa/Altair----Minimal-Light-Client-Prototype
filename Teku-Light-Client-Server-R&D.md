@@ -49,6 +49,18 @@ Refusing to recognize `!==` as proper expression for `private Bytes32[] root;`.
             if (getRoot(i) != 0) {
                 return false;}```, insufficient.
 
+##### Findings:
+
+Function within `Bytes32` class:
+```
+  static Bytes32 random(Random generator) {
+    byte[] array = new byte[32];
+    generator.nextBytes(array);
+    return wrap(array);
+  }
+```
+could possibly provide solution, more research to be done.
+
 ## Solution:
 *TBD (To Be Determined)*
 ______________________________________________________________
