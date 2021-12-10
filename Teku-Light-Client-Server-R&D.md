@@ -51,7 +51,7 @@ Refusing to recognize `!==` as proper expression for `private Bytes32[] root;`.
 
 ##### Findings:
 
-Function within `Bytes32` class:
+- Function within `Bytes32` class:
 ```
   static Bytes32 random(Random generator) {
     byte[] array = new byte[32];
@@ -60,6 +60,15 @@ Function within `Bytes32` class:
   }
 ```
 could possibly provide solution, more research to be done.
+- `root.toArray(array);` function created within
+ ```
+     static Utilities (Bytes32 root) {
+        byte[] array = new byte[32];
+        root.toArray(array);
+        return array;
+    }
+```
+quite possible to be refactored into `isZeroHash()` function.
 
 ## Solution:
 *TBD (To Be Determined)*
