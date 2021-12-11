@@ -70,8 +70,25 @@ could possibly provide solution, more research to be done.
 ```
 quite possible to be refactored into `isZeroHash()` function.
 
+##### Test Cases:
+- Created `byte[] root = new byte[32];`, then refactored `root[i] != 0` function within if function. Problem likely solved.
+- 
+
 ## Solution:
-*TBD (To Be Determined)*
+Created `byte[] root = new byte[32];`, then refactored `root[i] != 0` function within if function within 'isZeroHash()` function. Final function:
+```
+    byte[] root = new byte[32];
+
+    public boolean isZeroHash() {
+        for (int i = 0; i < root.length; i++) {
+            if (root[i] != 0) {
+                return false;
+            }
+        }
+        return true;
+    }
+```
+Entire function might need to be refactored (after entire light-client test against Gradle, but for now, it works).
 ______________________________________________________________
 ## Problem:
 
