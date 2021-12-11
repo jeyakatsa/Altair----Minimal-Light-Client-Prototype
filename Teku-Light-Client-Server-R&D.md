@@ -7,9 +7,26 @@ This Research and Development technical paper is created to help alleviate some 
 # [Server](https://github.com/jeyakatsa/teku/tree/master/light-client)
 
 ## Problem:
+`rootArray.length` within `if (rootArray.length != expectedLength)` from `List<Bytes32> rootArray = new ArrayList<Bytes32>();` insufficient. 
 
+### Hypothesis:
+
+1. Refactor function/s.
+#### Test Cases: 
+- Refactored 
+```
+    public void assertZeroHashes(Bytes32 rootArray, int expectedLength) {
+        byte[] rootsArray = rootArray.toArray();
+```
+## Solution:
+Refactored 
+```
+    public void assertZeroHashes(Bytes32 rootArray, int expectedLength) {
+        byte[] rootsArray = rootArray.toArray();
+```
+
+## Problem:
 Function:
-
 ```
 public boolean isZeroHash() {
     for (int i = 0; i < root.length; i++) {
@@ -24,8 +41,8 @@ public boolean isZeroHash() {
 Refusing to recognize `!==` as proper expression for `private Bytes32[] root;`.
 
 ### Hypothesis:
-
 1. Refactor function/s.
+
 #### Test Cases: 
 - Refactoring `private Bytes32[] root;` into `private Bytes32 root[32];` not sufficient.
 - Refactoring `private Bytes32[] root;` into `private Bytes32 root;` not sufficient.
