@@ -7,12 +7,32 @@ This Research and Development technical paper is created to help alleviate some 
 # [Server](https://github.com/jeyakatsa/teku/tree/master/light-client)
 
 ## Problem:
-`rootArray.length` within `if (rootArray.length != expectedLength)` from `List<Bytes32> rootArray = new ArrayList<Bytes32>();` insufficient. 
+`T[]` constant within `public T[] getParticipantPubkeys<T> () {}` function insufficient.
 
 ### Hypothesis:
 
 1. Refactor function/s.
-#### Test Cases: 
+##### Findings: 
+- [Typescript Documentation](https://www.typescriptlang.org/docs/handbook/2/functions.ht) in order to convert constant successfully into Java.
+- [Typescript Generics](https://www.tutorialsteacher.com/typescript/typescript-generic).
+##### Test Cases: 
+- Added class to `T[]` function, insufficient.
+- Refactored `T[]` into `Array<T>`, insufficient.
+##### Findings
+- `T[]` constant most likely Generic Array, thus cannot be implemented as Generic Array due to Java constraints.
+
+## Solution:
+TBD (To Be Determined).
+
+-----------------------------------------------------------------------------
+
+## Problem:
+`rootArray.length` within `if (rootArray.length != expectedLength)` from `List<Bytes32> rootArray = new ArrayList<Bytes32>();` insufficient.
+
+### Hypothesis:
+
+1. Refactor function/s.
+##### Test Cases: 
 - Refactored 
 ```
     public void assertZeroHashes(Bytes32 rootArray, int expectedLength) {
@@ -24,6 +44,8 @@ Refactored
     public void assertZeroHashes(Bytes32 rootArray, int expectedLength) {
         byte[] rootsArray = rootArray.toArray();
 ```
+
+-----------------------------------------------------------------------------
 
 ## Problem:
 Function:
@@ -43,7 +65,7 @@ Refusing to recognize `!==` as proper expression for `private Bytes32[] root;`.
 ### Hypothesis:
 1. Refactor function/s.
 
-#### Test Cases: 
+##### Test Cases: 
 - Refactoring `private Bytes32[] root;` into `private Bytes32 root[32];` not sufficient.
 - Refactoring `private Bytes32[] root;` into `private Bytes32 root;` not sufficient.
 - Refactoring `int i = 0; i < root.length; i++` into `byte i = 0; i < root.length; i++` not sufficient.
