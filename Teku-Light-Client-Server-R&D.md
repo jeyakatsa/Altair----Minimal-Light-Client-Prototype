@@ -18,11 +18,17 @@ This Research and Development technical paper is created to help alleviate some 
 ##### Test Cases: 
 - Added class to `T[]` function, insufficient.
 - Refactored `T[]` into `Array<T>`, insufficient.
-##### Findings
+##### Findings:
 - `T[]` constant most likely Generic Array, thus cannot be implemented as Generic Array due to Java constraints.
+##### Test Cases: 
+- `List<T> pubkeys = new ArrayList<T>();` function creation a possibility.
+##### Findings:
+- [Java Generic Types](https://docs.oracle.com/javase/tutorial/java/generics/types.html)
+##### Test Cases: 
+- Refunction function into `public T[] getParticipantPubkeys()`.
 
 ## Solution:
-TBD (To Be Determined).
+Function: `public T[] getParticipantPubkeys()` resolved issue.
 
 -----------------------------------------------------------------------------
 
