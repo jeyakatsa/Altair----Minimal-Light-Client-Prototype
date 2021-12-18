@@ -7,6 +7,19 @@ This Research and Development technical paper is created to help alleviate some 
 # [Server](https://github.com/jeyakatsa/teku/tree/master/light-client)
 
 ## Problem:
+`bits.length` function within `for (int i = 0; i < bits.length; i++)` function within `public T[] getParticipantPubkeys()` insufficient.
+
+### Hypothesis:
+
+1. Refactor function/s.
+##### Findings: 
+- [Vector Instantiating in Java](https://www.geeksforgeeks.org/java-util-vector-class-java/) quite possible for solution.
+##### Test Cases:
+- Created `Vector<boolean> bits = new Vector<boolean>();`, insufficient.
+
+-----------------------------------------------------------------------------
+
+## Problem:
 `T[]` constant within `public T[] getParticipantPubkeys<T> () {}` function insufficient.
 
 ### Hypothesis:
