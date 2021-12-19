@@ -16,6 +16,14 @@ This Research and Development technical paper is created to help alleviate some 
 - [Vector Instantiating in Java](https://www.geeksforgeeks.org/java-util-vector-class-java/) quite possible for solution.
 ##### Test Cases:
 - Created `Vector<boolean> bits = new Vector<boolean>();`, insufficient.
+##### Findings: 
+- Creating a `Vector` within a `Vector` might work via [Stack overflow question](https://stackoverflow.com/questions/6203226/how-to-create-an-array-of-vector-in-java).
+##### Test Case:
+- Created `Vector<Vector<Boolean>> bits = new Vector<Vector<Boolean>>();`, insufficient.
+- Added an integer `(100)` to `Vector` instantiation, insufficient.
+
+## Solution:
+TBD (To Be Determined)
 
 -----------------------------------------------------------------------------
 
