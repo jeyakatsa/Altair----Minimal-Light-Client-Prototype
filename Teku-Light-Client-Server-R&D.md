@@ -21,6 +21,7 @@ This Research and Development technical paper is created to help alleviate some 
 ##### Test Case:
 - Created `Vector<Vector<Boolean>> bits = new Vector<Vector<Boolean>>();`, insufficient.
 - Added an integer `(100)` to `Vector` instantiation, insufficient.
+- Created `List<Integer> bits = new ArrayList<Integer>();`, insufficient.
 
 ## Solution:
 TBD (To Be Determined)
