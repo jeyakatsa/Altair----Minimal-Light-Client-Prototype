@@ -18,13 +18,20 @@ This Research and Development technical paper is created to help alleviate some 
 - Created `Vector<boolean> bits = new Vector<boolean>();`, insufficient.
 ##### Findings: 
 - Creating a `Vector` within a `Vector` might work via [Stack overflow question](https://stackoverflow.com/questions/6203226/how-to-create-an-array-of-vector-in-java).
-##### Test Case:
+##### Test Cases:
 - Created `Vector<Vector<Boolean>> bits = new Vector<Vector<Boolean>>();`, insufficient.
 - Added an integer `(100)` to `Vector` instantiation, insufficient.
 - Created `List<Integer> bits = new ArrayList<Integer>();`, insufficient.
+##### Findings:
+- Created `int[] bits = new int[100];` which obiously works, only issue is that dependent on the [Lodestar Light Client Utils class](https://github.com/ChainSafe/lodestar/blob/master/packages/light-client/src/utils/utils.ts) as reference, the `BitVector` is directly correlated to `Vector<Boolean>` which doesn't translate into an integer array in Java...
 
 ## Solution:
-TBD (To Be Determined)
+Function to convert Vector into Array in Java implemented: 
+
+```
+Vector<Boolean> vector = new Vector<Boolean>();
+Object[] bits = vector.toArray();
+```
 
 -----------------------------------------------------------------------------
 
