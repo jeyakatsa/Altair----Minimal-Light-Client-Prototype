@@ -7,13 +7,14 @@ This Research and Development technical paper is created to help alleviate some 
 # [Server](https://github.com/jeyakatsa/teku/tree/master/light-client)
 
 ## Problem:
-`bits.length` function within `for (int i = 0; i < bits.length; i++)` function within `public T[] getParticipantPubkeys()` insufficient.
+`participantPubkeys.push(pubkeys.get(i));` function within `public T[] getParticipantPubkeys()` insufficient.
 
 ### Hypothesis:
 
 1. Refactor function/s.
 ##### Findings:
 - Method cannot be pushed via `T` variable.
+- The old "GenericArray" problem via Java could be a major diagnosis of this issue...
 
 ## Solution:
 TBD (To Be Determined)
@@ -21,7 +22,7 @@ TBD (To Be Determined)
 -------------------------------------------------------------------
 
 ## Problem:
-`participantPubkeys.push(pubkeys.get(i));` function within `public T[] getParticipantPubkeys()` insufficient.
+`bits.length` function within `for (int i = 0; i < bits.length; i++)` function within `public T[] getParticipantPubkeys()` insufficient.
 
 ### Hypothesis:
 
