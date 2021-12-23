@@ -12,6 +12,20 @@ This Research and Development technical paper is created to help alleviate some 
 ### Hypothesis:
 
 1. Refactor function/s.
+##### Findings:
+- Method cannot be pushed via `T` variable.
+
+## Solution:
+TBD (To Be Determined)
+
+-------------------------------------------------------------------
+
+## Problem:
+`participantPubkeys.push(pubkeys.get(i));` function within `public T[] getParticipantPubkeys()` insufficient.
+
+### Hypothesis:
+
+1. Refactor function/s.
 ##### Findings: 
 - [Vector Instantiating in Java](https://www.geeksforgeeks.org/java-util-vector-class-java/) quite possible for solution.
 ##### Test Cases:
