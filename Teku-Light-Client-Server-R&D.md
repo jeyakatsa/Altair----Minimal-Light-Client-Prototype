@@ -7,6 +7,21 @@ This Research and Development technical paper is created to help alleviate some 
 # [Server](https://github.com/jeyakatsa/teku/tree/master/light-client)
 
 ## Problem:
+Issue importing `.block` from general `altair` class from Teku client.
+
+### Hypothesis:
+
+1. Find alternate class within client.
+##### Findings:
+- No `BeaconBlock` sole class within Teku client.
+- `altair.LightClientUpdate` and `altair.BeaconBlock` have similar instances and a possible solution can be derived from [LightClientStore](https://github.com/jeyakatsa/teku/blob/master/light-client/src/main/java/tech/pegasys/teku/lightclient/client/LightClientStore.java) class.
+
+## Solution:
+No AltairTBD (To Be Determined)
+
+-------------------------------------------------------------------
+
+## Problem:
 `participantPubkeys.push(pubkeys.get(i));` function within `public T[] getParticipantPubkeys()` insufficient.
 
 ### Hypothesis:
