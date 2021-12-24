@@ -7,7 +7,15 @@ This Research and Development technical paper is created to help alleviate some 
 # [Server](https://github.com/jeyakatsa/teku/tree/master/light-client)
 
 ## Problem:
-Issue importing `.block` from general `altair` class from Teku client.
+Issue importing `.block` from general `altair` class from Teku client using these Typescript functions as reference:
+
+```
+    slot: block.slot,
+    proposerIndex: block.proposerIndex,
+    parentRoot: block.parentRoot,
+    stateRoot: block.stateRoot,
+    bodyRoot: ssz.altair.BeaconBlockBody.hashTreeRoot(block.body),
+```
 
 ### Hypothesis:
 
@@ -17,7 +25,7 @@ Issue importing `.block` from general `altair` class from Teku client.
 - `altair.LightClientUpdate` and `altair.BeaconBlock` have similar instances and a possible solution can be derived from [LightClientStore](https://github.com/jeyakatsa/teku/blob/master/light-client/src/main/java/tech/pegasys/teku/lightclient/client/LightClientStore.java) class.
 
 ## Solution:
-No AltairTBD (To Be Determined)
+imported `NodeSlot` and other corresponding classes to resolve issue.
 
 -------------------------------------------------------------------
 
