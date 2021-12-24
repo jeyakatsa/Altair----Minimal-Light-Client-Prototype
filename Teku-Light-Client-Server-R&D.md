@@ -17,7 +17,7 @@ This Research and Development technical paper is created to help alleviate some 
 - The old "GenericArray" problem via Java could be a major diagnosis of this issue...
 
 ## Solution:
-TBD (To Be Determined)
+Created `Stack<T> participantPubkeys = new Stack<T>();`.
 
 -------------------------------------------------------------------
 
