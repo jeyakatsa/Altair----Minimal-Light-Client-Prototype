@@ -7,11 +7,11 @@ This Research and Development technical paper is created to help alleviate some 
 # [Server](https://github.com/jeyakatsa/teku/tree/master/light-client)
 
 ## Problem:
-Java having issues returning functions within functions.
+Java having issues returning classes within functions.
 
 ### Hypothesis:
 
-1. Create separate functions and return the functions solely?
+1. Create separate classes and return them solely?
 ##### Findings:
 - TBD (To Be Determined)
 
@@ -20,7 +20,6 @@ TBD (To Be Determined).
 
 -----------------------------------------------------------------
 
-Java having issues cannot returning functions within functions.
 
 ## Problem:
 Issue importing `.block` from general `altair` class from Teku client using these Typescript functions as reference:
