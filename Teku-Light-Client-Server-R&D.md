@@ -13,10 +13,20 @@ Java having issues returning classes within functions.
 
 1. Create separate classes and return them solely?
 ##### Findings:
-- TBD (To Be Determined)
+- Implementing a similar function: `public Engine getEngine() {return new Engine();}` might work.
+##### Test Case/s:
+- Implementing `return new BeaconBlockHeader();` works.
+- Implementing `return new NodeSlot();` insufficient.
+- Implementing getters and setters:
+```
+NodeSlot block;
+NodeSlot getBlock() { return block;}
+void setBlock() {this.block = block;}
+``` 
+insufficient.
 
 ## Solution:
-TBD (To Be Determined).
+Created [`ToBlockHeader`](https://github.com/jeyakatsa/teku/blob/master/light-client/src/main/java/tech/pegasys/teku/lightclient/utilities/ToBlockHeader.java) class.
 
 -----------------------------------------------------------------
 
