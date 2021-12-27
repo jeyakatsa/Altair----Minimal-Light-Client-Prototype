@@ -2,9 +2,37 @@
 
 This Research and Development technical paper is created to help alleviate some bottlenecks within and during the light client server build for Teku.
 
-**Problems & Solutions ordered top-to-down from recent-to-oldest**
+**Problems & Solutions ordered top-down from recent-to-oldest**
 
 # [Server](https://github.com/jeyakatsa/teku/tree/master/light-client)
+
+## Problem:
+Function `altair.LightClientUpdate["nextSyncCommittee"]["pubkeys"]` in Typescript needs to be converted into Java.
+
+### Hypothesis:
+
+1. Refactor function
+##### Test Case/s:
+- Creating `pubkeys.LightClientUpdate pubkeys;` insufficient.
+##### Findings:
+- This function example might work:
+```
+B b; 
+b = new B(); 
+b.doSomething();
+```
+##### Test Case/s:
+- Implemented:
+```
+private LightClientUpdate pubkeys;
+pubkeys = new void LightClientUpdate();
+```
+not sufficient.
+
+## Solution:
+TBD (To Be Determined)
+
+-----------------------------------------------------------------
 
 ## Problem:
 Java having issues returning classes within functions.
