@@ -28,6 +28,8 @@ private LightClientUpdate pubkeys;
 pubkeys = new void LightClientUpdate();
 ```
 not sufficient.
+##### Findings:
+- Possibly `return Array.from(pubkeys).map((pk) => PublicKey.fromBytes(pk.valueOf() as Uint8Array));` function in Typescript could be clue to overall solution...
 
 ## Solution:
 TBD (To Be Determined)
