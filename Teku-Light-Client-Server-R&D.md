@@ -30,6 +30,37 @@ pubkeys = new void LightClientUpdate();
 not sufficient.
 ##### Findings:
 - Possibly `return Array.from(pubkeys).map((pk) => PublicKey.fromBytes(pk.valueOf() as Uint8Array));` function in Typescript could be clue to overall solution...
+##### Test Case/s:
+- Changed `public interface DeserializePubkeys extends PublicKey` function into `public class DeserializePubkeys`, insufficient.
+- Implemented `private LightClientUpdate["syncCommittee"] pubkeys;`, insufficient.
+- Implemented `LightClientUpdate pubkeys = example();`, worked... 
+##### Findings
+- `LightClientUpdate pubkeys = example();` function from above test case solved compiling error, expanding on this new discovery.
+##### Test Case/s:
+- Function: 
+```
+LightClientUpdate pubkeys = new LightClientUpdate() {
+        public Bytes48 toBytesCompressed() {
+            return null;
+        }
+        public void forceValidation() throws IllegalArgumentException {
+
+        }
+        public boolean isInGroup() {
+            return false;
+        }
+        public boolean isValid() {
+            return false;
+        }
+        public int hashCode() {
+            return 0;
+        }
+        public boolean equals(Object obj) {
+            return false;
+        }
+    };
+```
+Resolved `pubkeys` issue.
 
 ## Solution:
 TBD (To Be Determined)
