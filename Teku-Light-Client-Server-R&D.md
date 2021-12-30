@@ -7,6 +7,31 @@ This Research and Development technical paper is created to help alleviate some 
 # [Server](https://github.com/jeyakatsa/teku/tree/master/light-client)
 
 ## Problem:
+Function `return Array.from(pubkeys).map((pk) => PublicKey.fromBytes(pk.valueOf() as Uint8Array));` in Typescript for `DeserializePubKeys` function needs to be converted into Java.
+
+### Hypothesis:
+
+1. Refactor function
+##### Findings:
+- Function
+```
+    @Override
+    public Foo getFoo() {
+        return new Fizz();
+    }
+    @Override
+    public Foo getAnotherFoo() {
+        return new Buzz();
+    }
+```
+might give a clue as to the solution.
+
+## Solution:
+TBD (To Be Determined)
+
+---------------------------------------------------------------------
+
+## Problem:
 Function `altair.LightClientUpdate["nextSyncCommittee"]["pubkeys"]` in Typescript needs to be converted into Java.
 
 ### Hypothesis:
@@ -60,10 +85,32 @@ LightClientUpdate pubkeys = new LightClientUpdate() {
         }
     };
 ```
-Resolved `pubkeys` issue.
+Resolved `pubkeys` issue. "SyncCommittee" might not be needed.
 
 ## Solution:
-TBD (To Be Determined)
+```
+LightClientUpdate pubkeys = new LightClientUpdate() {
+        public Bytes48 toBytesCompressed() {
+            return null;
+        }
+        public void forceValidation() throws IllegalArgumentException {
+
+        }
+        public boolean isInGroup() {
+            return false;
+        }
+        public boolean isValid() {
+            return false;
+        }
+        public int hashCode() {
+            return 0;
+        }
+        public boolean equals(Object obj) {
+            return false;
+        }
+    };
+```
+"SyncCommittee" might not be needed.
 
 -----------------------------------------------------------------
 
