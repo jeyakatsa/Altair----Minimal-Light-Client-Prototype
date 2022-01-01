@@ -25,6 +25,9 @@ Function `return Array.from(pubkeys).map((pk) => PublicKey.fromBytes(pk.valueOf(
     }
 ```
 might give a clue as to the solution.
+#### Test Case/s:
+- Importing `Array` from `java.lang.reflect` partially solved issue.
+- Refactoring return method `Array.from` into `Array.get` or `Array.set` partially solved issue.
 
 ## Solution:
 TBD (To Be Determined)
