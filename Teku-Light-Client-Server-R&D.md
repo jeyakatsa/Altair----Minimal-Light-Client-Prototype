@@ -28,6 +28,16 @@ might give a clue as to the solution.
 #### Test Case/s:
 - Importing `Array` from `java.lang.reflect` partially solved issue.
 - Refactoring return method `Array.from` into `Array.get` or `Array.set` partially solved issue.
+#### Findings:
+- `pubkeys` function within `Array.set(pubkeys)` method insufficient. Error: 'set(java.lang.Object, int, java.lang.Object)' in 'java.lang.reflect.Array' cannot be applied to '(tech.pegasys.teku.lightclient.client.LightClientUpdate)'. Possibly change pubkeys function?
+#### Test Case/s:
+- Changed `SszPublicKey` into `PublicKey`, insufficient.
+#### Findings:
+- `PublicKey` function needs to be converted into an object.
+- `Rectangle rectOne = new Rectangle(originOne, 100, 200);` function Object might have clue.
+#### Test Case/s:
+- `PublicKey pubkeys = new PublicKey(Object null, int 100)` function insufficient.
+- `return Array.get()` without `publickeys` insufficient, might have to reangle direction of refactoring.
 
 ## Solution:
 TBD (To Be Determined)
