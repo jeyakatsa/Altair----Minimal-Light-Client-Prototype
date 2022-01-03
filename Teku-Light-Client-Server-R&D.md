@@ -38,6 +38,20 @@ might give a clue as to the solution.
 #### Test Case/s:
 - `PublicKey pubkeys = new PublicKey(Object null, int 100)` function insufficient.
 - `return Array.get()` without `publickeys` insufficient, might have to reangle direction of refactoring.
+#### Findings:
+- `Array.prototype.map()` seems like the only best resolution.
+#### Test Case/s:
+- `return Array.prototype.map();` insufficient
+#### Findings:
+- `Object[] mapped = in.stream().map(e -> doMap(e)).toArray();` might provide clue.
+#### Test Case/s:
+- `Object[] mapped = Arrays.stream(pubkeys)` partially solved issue, `pubkeys` still returning error.
+- `Object[] mapped = Arrays.stream(new PublicKey[]{pubkeys})` solved 'pubkeys' issue.
+#### Findings
+- In TypeScript, `var MakePoint = () => 1;` is the same as `var MakePoint = function () { return 1; };`, converting it into Java will mean creating a simple function.
+#### Test Case/s:
+- Function `function(pk){PublicKey.fromBytes(pk.valueOf() as Uint8Array)};` insufficient.
+- Removing `{}` Brackets insufficient.
 
 ## Solution:
 TBD (To Be Determined)
