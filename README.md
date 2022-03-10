@@ -1,4 +1,4 @@
-# [Light Client Server](https://github.com/jeyakatsa/teku/tree/master/light-client)
+# [Light Client Server for Teku (Consensys)](https://github.com/jeyakatsa/teku/tree/master/light-client)
 
 ## [Step-By-Step Guide](https://hackmd.io/ZFINvY5fRUGrLK-BteZrug?view)
 
